@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/core/provider/user_provider.dart';
-import 'package:myapp/view/halaman_satu.dart';
+import 'package:myapp/view/main_layout.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -22,7 +22,7 @@ class App extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const HalamanSatu(),
+        home: const MainLayout(),
       ),
     );
   }
